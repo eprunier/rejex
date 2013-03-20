@@ -1,0 +1,53 @@
+<div>
+  <h2>Java regex test page</h2>
+
+  <div class="container" style="padding: 10px 0;">
+    <form method="post" action="{{context-root}}/">
+      <fieldset>
+	<div class="row">
+	  <div class="span12">
+	    <h4>Expression</h4>
+	    <textarea name="expression" style="width: 100%;">{{expression}}</textarea>
+	    <label class="checkbox inline">
+	      <input type="checkbox" value="CANON_EQ">CANON_EQ</input>
+	    </label>
+	    <label class="checkbox inline">
+	      <input type="checkbox" value="CANON_EQ">CASE_INSENSITIVE</input>
+	    </label>
+	    <label class="checkbox inline">
+	      <input type="checkbox" value="CANON_EQ">COMMENTS</input>
+	    </label>
+	    <label class="checkbox inline">
+	      <input type="checkbox" value="CANON_EQ">DOTALL</input>
+	    </label>
+	    <label class="checkbox inline">
+	      <input type="checkbox" value="CANON_EQ">LITERAL</input>
+	    </label>
+	    <label class="checkbox inline">
+	      <input type="checkbox" value="CANON_EQ">MULTILINE</input>
+	    </label>
+	    <label class="checkbox inline">
+	      <input type="checkbox" value="CANON_EQ">UNICODE_CASE</input>
+	    </label>
+	    <label class="checkbox inline">
+	      <input type="checkbox" value="CANON_EQ">UNIX_LINES</input>
+	    </label>
+	    <button class="btn btn-inverse pull-right" style="margin-top: 10px;">execute</button>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="span12">
+	    <h4>Input</h4>
+	    <textarea name="input" style="width: 100%;" rows="10">{{input}}</textarea>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="span12">
+	    <h4>Output</h4>
+	    <textarea name="output" style="width: 100%;" rows="10">{{output}}</textarea>
+	  </div>
+	</div>
+      </fieldset>
+    </form>
+  </div>
+</div>
